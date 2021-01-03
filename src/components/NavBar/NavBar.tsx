@@ -17,7 +17,7 @@ function NavBar(): JSX.Element {
     return (
       <Link
         color="brand.white"
-        p="5"
+        px="5"
         href={link}
         _hover={{
           textDecoration: 'none',
@@ -29,8 +29,8 @@ function NavBar(): JSX.Element {
   };
 
   return (
-    <Flex p="6" width="100%">
-      <Box>
+    <Flex>
+      <Box px="6" py="2" width="100%">
         <Heading color="brand.gold" size="md" fontWeight="normal">
           <Link
             href="/"
@@ -43,7 +43,7 @@ function NavBar(): JSX.Element {
         </Heading>
       </Box>
       <Spacer />
-      <Box>
+      <Box py="2">
         <NavBarLink name="Blog" link="/blog"></NavBarLink>
         <NavBarLink name="About" link="/about"></NavBarLink>
         <NavBarLink name="Projects" link="/projects"></NavBarLink>
