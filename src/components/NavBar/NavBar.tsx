@@ -27,8 +27,9 @@ function NavBar(): JSX.Element {
       </Link>
     );
   };
+
   return (
-    <Flex backgroundColor="brand.navy" p="8" width="100%">
+    <Flex p="6" width="100%">
       <Box>
         <Heading color="brand.gold" size="md" fontWeight="normal">
           <Link

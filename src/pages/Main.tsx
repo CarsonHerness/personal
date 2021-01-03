@@ -5,7 +5,7 @@ import Routes from '../Routes';
 function Main(): JSX.Element {
   return (
     <Flex>
-      <Box width="100%" bgGradient="linear(to-b, brand.navy, brand.black)">
+      <Box width="100%">
         <Box margin="20px">
           <Routes />
         </Box>

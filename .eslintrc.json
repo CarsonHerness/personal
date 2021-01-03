@@ -67,8 +67,12 @@
     "spellcheck/spell-checker": [
       "warn",
       {
+        "skipWords": [
+          "calc"
+        ],
         "skipWordIfMatch": [
-          "Chakra"
+          "Chakra",
+          "vh"
         ]
       }
     ]
