@@ -10,32 +10,36 @@ import {Box, Flex} from '@chakra-ui/react';
 function App(): JSX.Element {
   return (
     <Flex>
-      <Box
-        height="100vh"
-        width="100%"
-        bgGradient="linear(to-b, brand.navy, brand.black)"
-      >
-        <Box
-          width="100%"
-          height="72px"
-          top="0"
-          position="fixed"
-          overflow="hidden"
-        >
-          <NavBar />
-        </Box>
-        <Box paddingTop="72px" height="calc(100vh - 102px)" width="100%">
-          <Main />
-        </Box>
-        <Box
-          position="fixed"
-          width="100%"
-          left="0"
-          bottom="0"
-          overflow="hidden"
-          height="30px"
-        >
-          <Footer />
+      <Box height="100vh" width="100%" backgroundColor="brand.gold ">
+        <Box position="relative" minHeight="100vh">
+          <Box
+            width="100%"
+            top="0"
+            position="fixed"
+            overflow="hidden"
+            backgroundColor="brand.navy"
+            height="40px"
+          >
+            <NavBar />
+          </Box>
+          <Box
+            bgGradient="linear(to-b, brand.navy, brand.black)"
+            minHeight="calc(100vh - 30px)"
+            width="100%"
+            paddingTop="40px"
+          >
+            <Main />
+          </Box>
+          <Box
+            position="absolute"
+            width="100%"
+            bottom="0"
+            overflow="hidden"
+            height="30px"
+            backgroundColor="brand.black"
+          >
+            <Footer />
+          </Box>
         </Box>
       </Box>
     </Flex>
