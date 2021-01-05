@@ -68,7 +68,14 @@
       "warn",
       {
         "skipWords": [
-          "calc"
+          "calc",
+          "Mudd",
+          "Hinckley",
+          "Steedman",
+          "Unordered",
+          "Gmail",
+          "microservices",
+          "codebase"
         ],
         "skipWordIfMatch": [
           "Chakra",
