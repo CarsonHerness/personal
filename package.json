@@ -13,7 +13,7 @@
     "@types/node": "^14.14.20",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
-    "@types/react-router": "^5.1.9",
+    "@types/react-router": "^5.1.10",
     "eslint-plugin-spellcheck": "0.0.17",
     "eslint-plugin-tsdoc": "^0.2.10",
     "framer-motion": "^3.1.4",
