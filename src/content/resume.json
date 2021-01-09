@@ -1,0 +1,98 @@
+{
+  "skills": [
+    {
+      "type": "Programming Languages",
+      "items": [
+        "Java",
+        "Python",
+        "TypeScript",
+        "HTML/CSS",
+        "JavaScript",
+        "C++",
+        "C",
+        "LaTeX"
+      ]
+    },
+    {
+      "type": "Frameworks/Tools",
+      "items": ["Git", "React", "Chakra UI", "ESLint", "Firebase", "Jekyll"]
+    },
+    {
+      "type": "Languages",
+      "items": ["Spanish"]
+    }
+  ],
+  "sections": [
+    {
+      "title": "Experience",
+      "subsections": [
+        {
+          "title": "Google",
+          "subtitle": "Software Engineering Intern",
+          "date": "May 2020 to August 2020",
+          "description": [
+            "Contributed to migration of email quarantine tool used by thousands of GSuite Gmail customers",
+            "Utilized internal microservices platform to add to backend service for Gmail tool (Java)",
+            "Committed 3000+ lines of Java code to Gmail codebase and read 6000+ lines of legacy Java code",
+            "Collaborated across three teams to determine optimal, modern design decisions in migration project"
+          ],
+          "tags": ["Java", "microservices"],
+          "location": "Remote, team in Waterloo, Canada"
+        },
+        {
+          "title": "Google",
+          "subtitle": "Engineering Practicum Intern",
+          "date": "May 2019 to August 2019",
+          "description": [
+            "Designed and built debugging tool for team of 15 backend engineers on Google Drive (Java)",
+            "Implemented data pipeline to process billions of records using internal MapReduce framework",
+            "Worked with co-intern and team to determine design decisions and useful features"
+          ],
+          "tags": ["Java", "MapReduce"],
+          "location": "Boulder, CO"
+        }
+      ]
+    },
+    {
+      "title": "Education",
+      "subsections": [
+        {
+          "title": "Harvey Mudd College",
+          "subtitle": "B.S. in Computer Science (GPA: 3.9)",
+          "date": "August 2017 to May 2021",
+          "description": [
+            "Select Technical Coursework: Natural Language Processing, Artificial Intelligence, Operations Research, Programming Languages, Software Development, Algorithms, Data Structures and Program Development",
+            "Select Other Coursework: Linguistics, Language and Gender, Communicating Science, Human Data Science Ethics"
+          ],
+          "location": "Claremont, CA"
+        }
+      ]
+    },
+    {
+      "title": "Projects",
+      "subsections": [
+        {
+          "subtitle": "Harvey Mudd Clinic Program",
+          "title": "Air Quality Tracking and Analysis",
+          "date": "August 2020 to May 2021",
+          "description": [
+            "Organized weekly meetings between team members and South Gate liaisons",
+            "Worked on team of 5 to create custom bilingual air quality tracking website",
+            "Wrote code and did code reviews for React app in TypeScript"
+          ],
+          "link": "https://sg-cehat-air-quality.firebaseapp.com/"
+        },
+        {
+          "title": "Trans History Website",
+          "date": "March 2020 to May 2020",
+          "description": [
+            "Designed and implemented website for team of four for project in gender history course",
+            "Customized functionality and aesthetic with Jekyll on Github Pages  (Javascript, HTML/CSS)"
+          ],
+          "link": "carsonherness.github.io/Trans-Histories-in-Latin-America/",
+          "tags": ["JavaScript", "HTML/CSS", "Jekyll"]
+        }
+      ]
+    }
+  ]
+}
