@@ -1,40 +1,67 @@
 import React from 'react';
-import {Box, Heading, Text, UnorderedList, ListItem} from '@chakra-ui/react';
+import {
+  Box,
+  Text,
+  List,
+  ListItem,
+  ListIcon,
+  Flex,
+  Spacer,
+} from '@chakra-ui/react';
+import {ChevronRightIcon} from '@chakra-ui/icons';
 
-interface ResumeSubsectionProps {
+interface ResumeSubsectionInterface {
   title: string;
   date: string;
+  description: string[];
+  subtitle?: string;
   location?: string;
-  descriptionList: string[];
+  tags?: string[];
 }
 
 /**
- * Component for a resume section
+ * Component for a resume subsection
  */
 const ResumeSubsection: ({
   title,
+  subtitle,
   date,
-  descriptionList,
-}: ResumeSubsectionProps) => JSX.Element = ({
+  description,
+  location,
+  tags,
+}: ResumeSubsectionInterface) => JSX.Element = ({
   title,
+  subtitle,
   date,
-  descriptionList,
-}: ResumeSubsectionProps) => {
+  description,
+  location,
+  tags,
+}: ResumeSubsectionInterface) => {
   return (
     <Box marginY="1em">
-      <Heading color="brand.white" fontSize="lg">
-        {title}
-      </Heading>
-      <Text color="brand.white">{date}</Text>
-      <UnorderedList>
-        {descriptionList.map((description, index) => (
+      <Flex>
+        <Text as="span" color="brand.white" fontSize="lg" fontWeight="bold">
+          {title}
+          <Text display="inline" fontWeight="normal">
+            {subtitle ? `, ${subtitle}` : ''}
+          </Text>
+        </Text>
+        <Spacer></Spacer>
+        <Text color="brand.white" textAlign="right">
+          {date}
+        </Text>
+      </Flex>
+      <List>
+        {description.map((item, index) => (
           <ListItem color="brand.white" key={index}>
-            {description}
+            <ListIcon as={ChevronRightIcon} color="brand.olive" />
+            {item}
           </ListItem>
         ))}
-      </UnorderedList>
+      </List>
     </Box>
   );
 };
 
+export type {ResumeSubsectionInterface};
 export default ResumeSubsection;

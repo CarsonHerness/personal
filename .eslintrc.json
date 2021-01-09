@@ -39,13 +39,6 @@
         }
       }
     ],
-    "no-extra-parens": [
-      "warn",
-      "all",
-      {
-        "ignoreJSX": "multi-line"
-      }
-    ],
     "require-atomic-updates": "error",
     "no-console": "warn",
     "default-case": "warn",
@@ -60,6 +53,7 @@
       }
     ],
     "no-multi-spaces": "warn",
+    "no-trailing-spaces": "warn",
     "require-await": "error",
     "camelcase": "warn",
     "eol-last": "error",
@@ -75,11 +69,13 @@
           "Unordered",
           "Gmail",
           "microservices",
-          "codebase"
+          "codebase",
+          "semibold"
         ],
         "skipWordIfMatch": [
           "Chakra",
-          "vh"
+          "vh",
+          "xl"
         ]
       }
     ]
