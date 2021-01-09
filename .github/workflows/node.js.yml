@@ -15,6 +15,6 @@ jobs:
     - uses: actions/setup-node@v1
       with:
         node-version: 10
-    - run: npm ci
-    - run: npm run lint
-    - run: npm run build
+    - run: yarn install --frozen-lockfile
+    - run: yarn run lint
+    - run: yarn run build
