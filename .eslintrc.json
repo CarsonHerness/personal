@@ -70,7 +70,8 @@
           "Gmail",
           "microservices",
           "codebase",
-          "semibold"
+          "semibold",
+          "monospace"
         ],
         "skipWordIfMatch": [
           "Chakra",
