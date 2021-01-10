@@ -1,5 +1,6 @@
 import React from 'react';
 import {Flex, Box, Heading} from '@chakra-ui/react';
+import './Home.css';
 
 /**
  * Component for Home page
@@ -14,8 +15,9 @@ function Home(): JSX.Element {
           fontSize="50px"
           fontWeight="normal"
           fontFamily="sans-serif"
+          className="typing"
         >
-          Hi, I&apos;m Carson.
+          {"Hi, I'm Carson."}
         </Heading>
       </Box>
     </Flex>
