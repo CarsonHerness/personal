@@ -17,7 +17,7 @@
     "@types/react-router": "^5.1.12",
     "eslint-plugin-spellcheck": "0.0.17",
     "eslint-plugin-tsdoc": "^0.2.11",
-    "framer-motion": "^4.0.0",
+    "framer-motion": "^4.0.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "react-router": "^5.2.0",
