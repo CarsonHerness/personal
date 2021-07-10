@@ -13,7 +13,7 @@
     "@types/jest": "^26.0.24",
     "@types/node": "^16.0.0",
     "@types/react": "^17.0.14",
-    "@types/react-dom": "^17.0.8",
+    "@types/react-dom": "^17.0.9",
     "@types/react-router": "^5.1.16",
     "eslint-plugin-spellcheck": "0.0.19",
     "eslint-plugin-tsdoc": "^0.2.14",
